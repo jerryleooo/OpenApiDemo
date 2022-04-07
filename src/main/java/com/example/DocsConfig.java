@@ -12,7 +12,7 @@ public class DocsConfig
     {
         return GroupedOpenApi.builder()
                 .group("com.example")
-                .packagesToScan("OpenApiDemoController")
+                .packagesToScan("OpenApiController")
                 .build();
     }
 }
