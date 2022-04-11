@@ -11,8 +11,8 @@ public class DocsConfig
     public GroupedOpenApi api()
     {
         return GroupedOpenApi.builder()
-                .group("com.example")
-                .packagesToScan("OpenApiController")
+                .group("OpenApiController")
+                .packagesToScan("com.example")
                 .build();
     }
 }
